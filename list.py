@@ -8,3 +8,13 @@ total_sum = sum(numbers)
 print("List of numbers:", numbers)
 print("Sum of numbers:", total_sum)
 
+# Initialize an empty list to store the reversed numbers
+reversed_numbers = []
+
+# Use a for loop to iterate through the list in reverse order
+for i in range(len(numbers)-1, -1, -1):
+    reversed_numbers.append(numbers[i])
+
+# Print the original and reversed lists
+print("Original List:", numbers)
+print("Reversed List:", reversed_numbers)
